@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'SF'; 
+    font-style: normal;
+    font-weight: 700;
+	src: url(/font/SFPRODISPLAYBOLD.OTF); 
+}
+@font-face {
+	font-family: 'SF-SemiBold'; 
+    font-style: normal;
+    font-weight: 600;
+	src: url(/font/SFPRODISPLAYREGULAR.OTF); 
+}
+@font-face {
+	font-family: 'SF-Medium'; 
+    font-style: normal;
+    font-weight: 500;
+	src: url(/font/SFPRODISPLAYMEDIUM.OTF); 
+}
+@font-face {
+	font-family: 'SF-Regular'; 
+    font-style: normal;
+    font-weight: 400;
+	src: url(/font/SFPRODISPLAYREGULAR.OTF); 
+}
+body{
+    font-family: 'SF';
+}
