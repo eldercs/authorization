@@ -979,7 +979,7 @@ video {
 
   font-weight: 700;
 
-  src: url(/font/SFPRODISPLAYBOLD.OTF);
+  src: url("/font/SFPRODISPLAYBOLD.woff");
 }
 
 @font-face {
@@ -989,7 +989,7 @@ video {
 
   font-weight: 600;
 
-  src: url(/font/SFPRODISPLAYREGULAR.OTF);
+  src: url("/font/SFPRODISPLAYREGULAR.woff");
 }
 
 @font-face {
@@ -999,7 +999,7 @@ video {
 
   font-weight: 500;
 
-  src: url(/font/SFPRODISPLAYMEDIUM.OTF);
+  src: url("/font/SFPRODISPLAYMEDIUM.woff");
 }
 
 @font-face {
@@ -1009,7 +1009,7 @@ video {
 
   font-weight: 400;
 
-  src: url(/font/SFPRODISPLAYREGULAR.OTF);
+  src: url("/font/SFPRODISPLAYREGULAR.woff");
 }
 
 body{
