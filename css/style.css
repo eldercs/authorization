@@ -566,6 +566,10 @@ video {
   top: 16rem;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -690,11 +694,11 @@ video {
 }
 
 .h-700 {
-  height: 700px;
+  height: 43.75rem;
 }
 
-.max-h-\[900px\] {
-  max-height: 900px;
+.min-h-\[900px\] {
+  min-height: 900px;
 }
 
 .w-full {
@@ -726,7 +730,7 @@ video {
 }
 
 .min-w-375 {
-  min-width: 375px;
+  min-width: 23.4375rem;
 }
 
 .max-w-\[392px\] {
@@ -890,7 +894,7 @@ video {
 }
 
 .text-32 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .text-base {
@@ -899,7 +903,7 @@ video {
 }
 
 .text-40 {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .text-26 {
@@ -917,7 +921,7 @@ video {
 }
 
 .text-25 {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .font-normal {
