@@ -8,17 +8,57 @@
     <title>Document</title>
   </head>
   <body>
-    <main class="text-white text-25 font-[SF] font-bold min-w-375">
-      <div class="relative h-700 bg-gradient-to-b from-blue-green via-blue-green-black to-yellow-green">
-        <img src="./img/logo-mobile.svg" class="pt-6 ml-8" alt="" />
-        <h2 class="text-left mt-10 mx-5">
-          KARTAZAMEROV — 100% контроль и учёт действий выездных сотрудников
-        </h2>
-        <img class="absolute top-64 inset-x-0 mx-auto" src="./img/doughnut_chart.svg" alt="" />
+    <main class="text-white xl:text-desktop-text xl:font-normal xl:font-[SF-Regular] text-25 font-[SF] font-bold min-w-375 ">
+      <div class="xl:hidden">
+        <div class="relative h-700 bg-gradient-to-b from-blue-green via-blue-green-black to-yellow-green">
+          <img src="./img/logo-mobile.svg" class="pt-6 ml-8" alt="" />
+          <h2 class="text-left mt-10 mx-5">
+            KARTAZAMEROV — 100% контроль и учёт действий выездных сотрудников
+          </h2>
+          <img class="absolute top-64 inset-x-0 mx-auto" src="./img/doughnut_chart.svg" alt="" />
+        </div>
+        <a href="./authorization.html" class="block bg-blue-green rounded-lg text-base px-3 py-4 w-80 mt-8 mx-auto text-center">
+          Начать пользоваться
+        </a>
       </div>
-      <a href="./authorization_mobile.html" class="block bg-blue-green rounded-lg text-base px-3 py-4 w-80 mt-8 mx-auto text-center">
-        Начать пользоваться
-      </a>
+      <div class="relative flex-nowrap hidden xl:flex ">
+        <div class="relative h-screen max-h-[900px] min-w-[860px] w-full bg-gradient-to-b from-blue-green via-blue-green-black to-yellow-green">
+          <img class="absolute top-3 left-71" src="./img/logo-desktop.svg" alt="logo-icon" />
+          <h2 class="text-left text-white font-[SF] mt-36 ml-20 mr-91 text-40">
+            KARTAZAMEROV — 100% контроль и учёт действий выездных сотрудников
+          </h2>
+          <img class="absolute bottom-0 inset-x-0 mx-auto" src="./img/MacBook.png" alt="MacBook">
+        </div>
+        <img class="absolute top-32 inset-x-0 mx-auto" src="./img/coliso.svg" alt="" />
+        <div class="min-w-[580px]">
+          <div class="max-w-394 ml-113 mt-123">
+            <h2 class="text-26 font-[SF]">Регистрация в <span class="text-blue-green">KARTAZAMEROV</span></h2>
+            <p class="text-lg	text-desktop-text2 font-normal">Заполните данные для регистрации</p>
+            <div class="flex flex-col mt-10">
+              <label class="text-base font-semibold" for="name">Ваше имя</label>
+              <input type="text" id="name" class="mt-2 h-50 border border-border-colorxl py-18 px-26 focus:border-blue-green focus:outline-none rounded-lg">
+            </div>
+            <div class="flex flex-col mt-4">
+              <label class="text-base font-semibold" for="email">E-mail</label>
+              <input type="text" id="email" class="mt-2 h-50 border border-border-colorxl py-18 px-26 focus:border-blue-green focus:outline-none rounded-lg">
+            </div>
+            <div class="flex flex-col mt-4">
+              <label class="text-base font-semibold" for="telephone">Телефон</label>
+              <input type="text" id="telephone" class="mt-2 h-50 border border-border-colorxl py-18 px-26 focus:border-blue-green focus:outline-none rounded-lg">
+            </div>
+            <div class="flex flex-col mt-4">
+              <label class="text-base font-semibold" for="password">Введите пароль</label>
+              <input type="password" id="password" class="mt-2 h-50	 border border-border-colorxl py-18 px-26 focus:border-blue-green focus:outline-none rounded-lg">
+            </div>
+            <div class="flex flex-col mt-4">
+              <label class="text-base font-semibold" for="confirm-password">Повторите пароль</label>
+              <input type="password" id="confirm-password" class="mt-2 h-50	 border border-border-colorxl py-18 px-26 focus:border-blue-green focus:outline-none rounded-lg">
+            </div>
+            <button class="bg-blue-green rounded-lg text-white text-base py-18 px-26 mt-4 w-392">Зарегистрироваться</button>
+            <p class="text-grey-color text-sm tracking-[0.01em] mt-4">У вас есть аккаунт ? <span class="text-blue-green underline tracking-[0.01em]"><a href="./authorization.html">Войдите в аккаунт</a></span></p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
