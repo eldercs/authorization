@@ -6,25 +6,25 @@
 	font-family: 'SF'; 
     font-style: normal;
     font-weight: 700;
-	src: url(/font/SFPRODISPLAYBOLD.OTF); 
+	src: url(/font/SFPRODISPLAYBOLD.woff); 
 }
 @font-face {
 	font-family: 'SF-SemiBold'; 
     font-style: normal;
     font-weight: 600;
-	src: url(/font/SFPRODISPLAYREGULAR.OTF); 
+	src: url(/font/SFPRODISPLAYREGULAR.woff); 
 }
 @font-face {
 	font-family: 'SF-Medium'; 
     font-style: normal;
     font-weight: 500;
-	src: url(/font/SFPRODISPLAYMEDIUM.OTF); 
+	src: url(/font/SFPRODISPLAYMEDIUM.woff); 
 }
 @font-face {
 	font-family: 'SF-Regular'; 
     font-style: normal;
     font-weight: 400;
-	src: url(/font/SFPRODISPLAYREGULAR.OTF); 
+	src: url(/font/SFPRODISPLAYREGULAR.woff); 
 }
 body{
     font-family: 'SF';

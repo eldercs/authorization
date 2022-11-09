@@ -23,6 +23,7 @@ module.exports = {
       height:{
         '50': '3.125rem',
         '700': '43.75rem',
+        '800': '50rem',
         '900': '56.25rem'
       },
       width:{
@@ -40,7 +41,7 @@ module.exports = {
         '18': '1.125rem',
         '26': '1.625rem',
         '71': '71px',
-        '120': '120px',
+        '120': '7.5rem',
         '181': '181px'
       },
       margin:{
@@ -51,8 +52,10 @@ module.exports = {
         '243': '15.18rem'
       },
       screens:{
-        md: '768px',
-        xl: '1440px'
+        xl: '1440px',
+        thi: {'raw': '(min-height:32rem)'},
+        tha: {'raw': '(min-height:32rem)'},
+        thr: {'raw': '(min-height:48rem)'}
       }, 
     },
     fontFamily:{
