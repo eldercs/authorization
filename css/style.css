@@ -563,10 +563,6 @@ video {
   left: 1.25rem;
 }
 
-.top-64 {
-  top: 16rem;
-}
-
 .top-4 {
   top: 1rem;
 }
@@ -663,10 +659,6 @@ video {
   margin-left: 2rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -707,20 +699,8 @@ video {
   height: 0.75rem;
 }
 
-.h-auto {
-  height: auto;
-}
-
-.h-\[calc\(100vh-88px\)\] {
-  height: calc(100vh - 88px);
-}
-
 .h-\[calc\(100vh-118px\)\] {
   height: calc(100vh - 118px);
-}
-
-.max-h-\[700px\] {
-  max-height: 700px;
 }
 
 .min-h-\[506px\] {
@@ -1017,7 +997,7 @@ video {
 
   font-weight: 700;
 
-  src: url(/font/SFPRODISPLAYBOLD.woff);
+  src: url(../font/SFPRODISPLAYBOLD.woff);
 }
 
 @font-face {
@@ -1027,7 +1007,7 @@ video {
 
   font-weight: 600;
 
-  src: url(/font/SFPRODISPLAYREGULAR.woff);
+  src: url(../font/SFPRODISPLAYREGULAR.woff);
 }
 
 @font-face {
@@ -1037,7 +1017,7 @@ video {
 
   font-weight: 500;
 
-  src: url(/font/SFPRODISPLAYMEDIUM.woff);
+  src: url(../font/SFPRODISPLAYMEDIUM.woff);
 }
 
 @font-face {
@@ -1047,7 +1027,7 @@ video {
 
   font-weight: 400;
 
-  src: url(/font/SFPRODISPLAYREGULAR.woff);
+  src: url(../font/SFPRODISPLAYREGULAR.woff);
 }
 
 body{
