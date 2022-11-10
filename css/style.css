@@ -1094,6 +1094,12 @@ body{
   }
 }
 
+@media (min-height:50rem) {
+  .th800\:mt-36 {
+    margin-top: 9rem;
+  }
+}
+
 @media (min-height:48rem) {
   .thr\:pt-120 {
     padding-top: 7.5rem;
