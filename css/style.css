@@ -619,8 +619,8 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-36 {
-  margin-top: 9rem;
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .ml-20 {
@@ -1089,7 +1089,7 @@ body{
 }
 
 @media (min-height:32rem) {
-  .tha\:pt-120 {
+  .thi\:pt-120 {
     padding-top: 7.5rem;
   }
 }
