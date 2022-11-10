@@ -54,6 +54,7 @@ module.exports = {
       screens:{
         xl: '1440px',
         thi: {'raw': '(min-height:32rem)'},
+        th750: {'raw': '(min-height:46.875rem)'},
         th800: {'raw': '(min-height:50rem)'},
         thr: {'raw': '(min-height:48rem)'}
       }, 

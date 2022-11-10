@@ -663,6 +663,30 @@ video {
   margin-top: 1rem;
 }
 
+.mr-24 {
+  margin-right: 6rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1091,6 +1115,12 @@ body{
 @media (min-height:32rem) {
   .thi\:pt-120 {
     padding-top: 7.5rem;
+  }
+}
+
+@media (min-height:46.875rem) {
+  .th750\:mr-91 {
+    margin-right: 91px;
   }
 }
 
